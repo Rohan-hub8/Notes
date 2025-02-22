@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.custom-placeholder::placeholder {
+    color: gray;
+}
+.note {
+    min-width: 420px;
+    word-wrap: break-word;
+}
+@media (max-width: 720px) {
+    .note {
+        min-width: 0px;
+    }
+}
